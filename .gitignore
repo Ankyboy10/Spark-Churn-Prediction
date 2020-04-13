@@ -1,0 +1,14 @@
+# ipynb checkpoints
+.ipynb_checkpoints/*
+
+# python cache
+__pycache__/*
+
+# vscode settings
+.vscode/*
+
+# notes
+tests*
+
+# notebook's export
+Sparkify.html
