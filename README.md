@@ -112,7 +112,7 @@ a user-friendly way by PySpark's built-in `.show()` method.
 
 1. Distribution of pages
 
-    <img src="./img/page_dist_2.png" alt="page_dist_2" width="100%">
+    <img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/page_dist_2.png" alt="page_dist_2" width="100%">
 
     Cancellations are less. That is what we have to predict.
 
@@ -125,21 +125,21 @@ a user-friendly way by PySpark's built-in `.show()` method.
 
 2. Distribution of levels (free or paid)
 
-    <img src="./img/level_dist.png" alt="level_dist" width="100%">
+    <img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/level_dist.png" alt="level_dist" width="100%">
 
     70% of churned users are paying customers. Customer retention is relatively more important
     for paid ones because they are directly connected with the revenue of the company.
 
 3. Song length
 
-    <img src="./img/songs_dist.png" alt="songs_dist" width="100%">
+    <img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/songs_dist.png" alt="songs_dist" width="100%">
 
     No additional information is available from this. It just shows
     that most songs are **4 minutes** long.
 
 4. What type of device user is streaming from?
 
-    <img src="./img/devices_dist.png" alt="devices_dist" width="100%">
+    <img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/devices_dist.png" alt="devices_dist" width="100%">
 
     This is what we have expected. Windows is the most used platform.
 
@@ -147,27 +147,27 @@ a user-friendly way by PySpark's built-in `.show()` method.
 
 1. Gender distribution
 
-    <img src="./img/gen_dist.png" alt="gen_dist" width="100%">
+    <img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/gen_dist.png" alt="gen_dist" width="100%">
 
     Males are more in number.
 
 2. Distribution of pages based on churn
 
-    <img src="./img/page_churn_dist.png" alt="page_churn_dist" width="100%">
+    <img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/page_churn_dist.png" alt="page_churn_dist" width="100%">
 
     No strong conclusion can be drawn from this graph. It also shows the same common
     actions as seen from the univariate plot [here](#page_dist_uni)
 
 3. Distribution of hour based on churn
 
-    <img src="./img/hod_churn_dist.png" alt="hod_churn_dist" width="100%">
-    <img src="./img/diff_hod_churn_dist.png" alt="diff_hod_churn_dist" width="100%">
+    <img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/hod_churn_dist.png" alt="hod_churn_dist" width="100%">
+    <img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/diff_hod_churn_dist.png" alt="diff_hod_churn_dist" width="100%">
 
     We can see that non-churn users are more active during day time.
 
 4. Behaviour across weekdays
 
-    <img src="./img/dow_churn_dist.png" alt="hod_churn_dist" width="100%">
+    <img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/dow_churn_dist.png" alt="hod_churn_dist" width="100%">
     <a id='f_eng'></a>
 
     Activity is more on weekdays. Especially for churned users. However, this change
@@ -175,9 +175,9 @@ a user-friendly way by PySpark's built-in `.show()` method.
 
 5. Behaviour at the month level
 
-    <img src="./img/dom_churn_dist.png" alt="dom_churn_dist" width="100%">
+    <img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/dom_churn_dist.png" alt="dom_churn_dist" width="100%">
 
-    <img src="./img/diff_dom_churn_dist.png" alt="diff_dom_churn_dist" width="100%">
+    <img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/diff_dom_churn_dist.png" alt="diff_dom_churn_dist" width="100%">
 
     Non-churn users are generally less active at the start of the month as compared
     to churn users, and the opposite is the case at the EOM.
@@ -217,7 +217,7 @@ We are interested in the fifth category. Our target variable is
 
 ### Data Visualisation
 
-<img src="./img/churn_dist.png" alt="churn_dist" width="100%">
+<img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/churn_dist.png" alt="churn_dist" width="100%">
 
 This imbalanced data suggests that we should not use accuracy as our evaluation
 metric. We will use F1 score instead and use under-sampling to further optimise it.
@@ -232,7 +232,7 @@ metric. We will use F1 score instead and use under-sampling to further optimise 
 
 1. Handling null values
 
-<img src="./img/nan_cols.png" alt="nan_cols" width="100%">
+<img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/nan_cols.png" alt="nan_cols" width="100%">
 
 First, we will remove null values for some columns. There are two distinct number of
 null values observed: **8346** and **58392.**
