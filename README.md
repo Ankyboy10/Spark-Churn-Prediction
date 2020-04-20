@@ -99,7 +99,7 @@ contains information about the features.
 
 A preview of data:
 
-<img src="./img/data_preview.png" alt="data_preview" width="100%">
+<img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/data_preview.png" alt="data_preview" width="100%">
 
 I have used `toPandas()` method above because 18 columns cannot be displayed in
 a user-friendly way by PySpark's built-in `.show()` method. 
