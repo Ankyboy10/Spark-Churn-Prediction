@@ -241,7 +241,7 @@ null values observed: **8346** and **58392.**
 have 2% `nan`s and see for the 20% one's whether we can impute the missing
 values in some way.
 
-<img src="./img/nan_cols_more.png" alt="nan_cols_count" width="100%">
+<img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/nan_cols_more.png" alt="nan_cols_count" width="100%">
 
 These are the columns with **20%** missing values. Seems like it is difficult to
 impute them. We will drop the
@@ -272,7 +272,7 @@ undersampling to optimize our **F1 score**.
 F1 is the harmonic mean of precision and recall. Precision and recall are
 calculated in the following way:
 
-<img src="./img/f1_refined.png" alt="f1_calc" width="100%">
+<img src="https://github.com/Ankyboy10/Spark-Churn-Prediction/blob/master/f1_refined.png" alt="f1_calc" width="100%">
 
 This [article](#f1_blog) will deepen your understanding on why to use F1 score when evaluating your model on imbalanced data set.
 
